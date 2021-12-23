@@ -1,10 +1,7 @@
 import asset7 from './assets/assets7.jpg'
 import asset1 from './assets/assets1.jpg'
 import asset2 from './assets/assets2.jpg'
-import asset3 from './assets/assets3.jpg'
 import asset4 from './assets/assets4.jpg'
-import asset5 from './assets/assets5.jpg'
-import asset6 from './assets/assets6.jpg'
 import icon1 from './assets/icon1.png'
 import icon2 from './assets/icon2.png'
 import icon3 from './assets/icon3.png'
@@ -102,86 +99,7 @@ function App() {
 
       </div>
 
-      {/* <div className="featured">
-        <p>Featured Listing of the Week</p>
-        <div className="featured-img">
-          <img src={asset6} alt="dome house" />
-          <div className="featured-words">
-            <p>The and collecting for the motionless difficulty son.</p>
-            <p>
-            Conveying or northward offending admitting perfectly my. 
-            Colonel gravity get thought fat smiling add but difficult 
-            situations.
-            </p>
-            <div className="type1">
-              <p>Budget</p>
-              <p>Size</p>
-              <p>Type</p>
-            </div>
-            <div className="type2">
-              <p>Confidential</p>
-              <p>1200m<sup>3</sup></p>
-              <p>Office</p>
-            </div>
-            <div className="type3">
-              <p>Status</p>
-              <p>Location<sup>3</sup></p>
-              <p>Flat</p>
-            </div>
-            <div className="type4">
-              <p>Done</p>
-              <p>Switzerland</p>
-              <p>8 Room</p>
-            </div>
-            <button>Yes! I want Book "Office package"</button>
-          </div>
-        </div>
-      </div>
-      <div className="testimonies">
-        <p>Loved by businesses and individuals across the globe
-
-        </p>
-        <div className="combined-testimony">
-          <div className="first-test">
-            <p>
-              Moderate children at of outweigh it. Unsatiable it considered invitation he travelling insensible. Consulted admitting oh mr up as described.
-            </p>
-          </div>
-          <div className="second-test">
-            <p>
-            The and collecting motionless difficulty son. His hearing staying ten colonel met. Sex drew six easy four dear cold
-            </p>
-          </div>
-          <div className="third-test">
-            <p>
-            Sociable on as carriage my position weddings raillery consider. 
-            Peculiar trifling absolute and wandered vicinity property yet.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="companies"></div>
-      <div className="newsletter">
-        <p>Get our newsletter</p>
-        <p>to join the worldwide community</p>
-        <div className="input-button">
-          <input type="text" placeholder="shaki260@gmail.com"/>
-          <button>Send Now</button>
-        </div>
-      </div>
-      <div className="bottom">
-        <h2>SmartSpace</h2>
-        <div className="bottom-menu">
-          <p>Home</p>
-          <p>About</p>
-          <p>Service</p>
-          <p>Portfolio</p>
-          <p>Blog</p>
-        </div>
-      </div> */}
-      {/* <footer>
-        <p>Copyright © 2021 AR Shakir . All Rights Reseved.</p>
-      </footer> */}
+    
     </div>
   );
 }
