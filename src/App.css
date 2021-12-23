@@ -1,0 +1,188 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+background: #FFFFFF;
+}
+.smart{
+  display: flex;
+  justify-content: space-between;
+}
+.smart h2{
+  padding-left: 1rem;
+  padding-top: .5rem;
+}
+.menu{
+  display: flex;
+}
+.menu p{
+  padding: 1rem;
+}
+
+.container header h2{
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+line-height: 31px;
+
+/* TEXT */
+
+color: #31353B;
+}
+.intro{
+  display: flex;
+}
+
+.intro-image img{
+  width: 21rem;
+  height: 20rem;
+}
+.intro-word h2{
+  text-transform: uppercase;
+  color: rgb(235, 166, 38);
+  font-size: 1.4rem;
+  padding: 1rem .8rem 0 2rem;
+}
+.smart-living{
+  font-size: 2rem;
+  font-family: Monstserrat;
+  font-weight: 600;
+  padding: 0 1rem 0 2rem;
+}
+.statement{
+  margin-top: -1.5rem;
+  padding-left: 2rem;
+  padding-right: .2rem;
+}
+
+.input input{
+  width: 13rem;
+  height: 2.2rem;
+  margin-left: 2rem;
+}
+
+.input button{
+  width: 6rem;
+  height: 2.5rem;
+  background: orangered;
+  color: white;
+
+}
+.know-how h2{
+  text-align: center;
+  font-weight: 600;
+}
+.deal{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.deal button{
+  text-transform: capitalize;
+  height: 2rem;
+  width:8rem;
+  margin-right: .5rem;
+  margin-top: 1rem;
+  background: orangered;
+  color: white;
+}
+.deal h2{
+  text-transform: capitalize;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+.estate-desc{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: -1rem;
+
+}
+.list{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 1rem;
+}
+.list p{
+  text-transform: capitalize;
+}
+.prop-image{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.prop-image img{
+  width: 12rem;
+  
+}
+
+.know-how-img{
+  display: flex;
+  justify-content: space-between;
+}
+.know-how-img img{
+  padding-left: 5rem;
+  width: 3rem;
+  padding-right: 2rem;
+  
+}
+.know-how-word {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 1.2rem;
+}
+.know-how-desc{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2.5rem;
+  margin-top: -1rem;
+  
+}
+.partners p{
+  padding-left: 2rem;
+  color:#31353B;
+}
+.partners-logo{
+  display: flex;
+  justify-content: space-evenly;
+}
+.partners-logo img{
+  width: 2.5rem;
+}
+.list p:first-child{
+  color: orange;
+  text-decoration-style: solid;
+}
+
+@media (min-width: 694px){
+  .input{
+    margin-top: -6rem;
+    margin-bottom: 6rem;
+  }
+  .statement{
+    padding: 0 3rem;
+  }
+  .intro-image img{
+    width: 24rem;
+    height: 22rem;
+  }
+}
+@media (min-width: 700px) {
+  .prop-image img{
+    width: 20rem;
+  }
+  .know-how-desc p{
+    padding: 0 2rem;
+  }
+  .know-how-word p{
+    padding: 0 2rem;
+  }
+  .know-how-img img{
+    margin: 0 2rem;
+  }
+}
